@@ -1,0 +1,13 @@
+Data,Produto,Categoria,Quantidade,Preco_Unitario,Cliente,Cidade
+2024-01-10,Notebook,Eletronicos,2,3500,Empresa A,São Paulo
+2024-01-15,Mouse,Eletronicos,5,80,Empresa B,Rio de Janeiro
+2024-02-03,Teclado,Eletronicos,3,150,Empresa C,Belo Horizonte
+2024-02-10,Notebook,Eletronicos,1,3500,Empresa B,São Paulo
+2024-03-05,Monitor,Eletronicos,2,900,Empresa A,Curitiba
+2024-03-20,Mouse,Eletronicos,10,80,Empresa D,São Paulo
+2024-04-02,Cadeira Escritório,Móveis,4,1200,Empresa E,Campinas
+2024-04-18,Mesa Escritório,Móveis,2,2000,Empresa F,São Paulo
+2024-05-10,Headset,Eletronicos,6,250,Empresa C,Rio de Janeiro
+2024-05-22,Notebook,Eletronicos,3,3500,Empresa G,Curitiba
+2024-06-01,Monitor,Eletronicos,4,900,Empresa H,Belo Horizonte
+2024-06-15,Cadeira Escritório,Móveis,1,1200,Empresa A,São Paulo
