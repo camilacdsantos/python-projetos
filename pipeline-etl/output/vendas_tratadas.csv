@@ -1,0 +1,4 @@
+Data,Produto,Quantidade,Preco_Unitario,Cliente,Cidade,Faturamento
+2024-01-10,Notebook,2.0,3500,Empresa A,São Paulo,7000.0
+2024-03-05,Monitor,2.0,900,Empresa A,Curitiba,1800.0
+2024-03-20,Mouse,10.0,80,Empresa D,São Paulo,800.0
