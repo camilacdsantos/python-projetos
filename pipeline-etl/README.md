@@ -1,51 +1,174 @@
-# ⚙️ Projeto 03 - Pipeline ETL de Limpeza de Dados
+# ⚙️ Projeto 03 — Pipeline ETL de Limpeza de Dados
 
 ## 📌 Objetivo
 
-Simular um pipeline ETL simples em Python para tratamento de dados brutos de vendas, transformando um dataset inconsistente em uma base limpa e padronizada pronta para análise.
+Simular um pipeline ETL simples para tratamento de dados brutos de vendas.
 
-Este projeto demonstra práticas comuns de tratamento e qualidade de dados utilizadas em processos de engenharia e análise de dados.
-
----
-
-## 🛠 Tecnologias Utilizadas
-
-- Python 3
-- Pandas
-- Estrutura de pipeline com logs de execução
+O projeto transforma um dataset inconsistente em uma base limpa e padronizada pronta para análise.
 
 ---
 
-## 🔎 Problemas Simulados no Dataset
+# 🛠 Tecnologias Utilizadas
 
-O dataset original contém inconsistências comuns em dados reais:
-
-- Datas em formatos diferentes
-- Registros duplicados
-- Valores nulos em campos importantes
-- Padronização inconsistente de texto
+* Python
+* Pandas
 
 ---
 
-## ⚙️ Etapas do Pipeline ETL
+# 🔎 Problemas Simulados no Dataset
 
-O script executa as seguintes etapas:
+O dataset contém inconsistências comuns em dados reais:
 
-1. Leitura do dataset bruto
-2. Conversão da coluna de datas
-3. Remoção de registros com datas inválidas
-4. Remoção de registros duplicados
-5. Tratamento de valores nulos na coluna de quantidade
-6. Padronização de texto na coluna de cidade
-7. Criação da coluna **Faturamento**
-8. Exportação da base tratada
+* Datas em formatos diferentes
+* Registros duplicados
+* Valores nulos
+* Texto inconsistente
 
 ---
 
-## 🚀 Como Executar
+# ⚙️ Etapas do Pipeline
 
-No terminal, dentro da pasta do projeto:
+O script executa:
+
+1. Conversão de datas
+2. Remoção de registros inválidos
+3. Remoção de duplicados
+4. Tratamento de valores nulos
+5. Padronização de texto
+6. Criação de coluna de faturamento
+7. Exportação da base tratada
+
+---
+
+# 📁 Estrutura do Projeto
+
+```text
+pipeline-etl
+│
+├── data
+│   └── vendas_brutas.csv
+│
+├── output
+│   └── vendas_tratadas.csv
+│
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# 🚀 Como Executar
 
 ```bash
 python main.py
+```
 
+O script irá gerar a base tratada em:
+
+```text
+output/vendas_tratadas.csv
+```
+
+---
+
+# 🧠 Conceitos Demonstrados
+
+* Limpeza de dados
+* Tratamento de inconsistências
+* Padronização de informações
+* Criação de pipelines de dados
+
+---
+
+# 📌 Contexto Profissional
+
+Processos ETL são fundamentais em pipelines de dados para garantir a qualidade e confiabilidade das informações utilizadas em análises e relatórios.
+
+
+# ⚙️ Projeto 03 — Pipeline ETL de Limpeza de Dados
+
+## 📌 Objetivo
+
+Simular um pipeline ETL simples para tratamento de dados brutos de vendas.
+
+O projeto transforma um dataset inconsistente em uma base limpa e padronizada pronta para análise.
+
+---
+
+# 🛠 Tecnologias Utilizadas
+
+* Python
+* Pandas
+
+---
+
+# 🔎 Problemas Simulados no Dataset
+
+O dataset contém inconsistências comuns em dados reais:
+
+* Datas em formatos diferentes
+* Registros duplicados
+* Valores nulos
+* Texto inconsistente
+
+---
+
+# ⚙️ Etapas do Pipeline
+
+O script executa:
+
+1. Conversão de datas
+2. Remoção de registros inválidos
+3. Remoção de duplicados
+4. Tratamento de valores nulos
+5. Padronização de texto
+6. Criação de coluna de faturamento
+7. Exportação da base tratada
+
+---
+
+# 📁 Estrutura do Projeto
+
+```text
+pipeline-etl
+│
+├── data
+│   └── vendas_brutas.csv
+│
+├── output
+│   └── vendas_tratadas.csv
+│
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# 🚀 Como Executar
+
+```bash
+python main.py
+```
+
+O script irá gerar a base tratada em:
+
+```text
+output/vendas_tratadas.csv
+```
+
+---
+
+# 🧠 Conceitos Demonstrados
+
+* Limpeza de dados
+* Tratamento de inconsistências
+* Padronização de informações
+* Criação de pipelines de dados
+
+---
+
+# 📌 Contexto Profissional
+
+Processos ETL são fundamentais em pipelines de dados para garantir a qualidade e confiabilidade das informações utilizadas em análises e relatórios.
