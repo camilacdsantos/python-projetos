@@ -1,38 +1,79 @@
-# 📊 Projeto 02 - Relatório Automático de Vendas
+# 📄 Projeto 02 — Automação de Relatório de Vendas
 
 ## 📌 Objetivo
 
-Desenvolver um script em Python capaz de automatizar a geração de KPIs de vendas a partir de um dataset CSV, produzindo um relatório consolidado automaticamente.
+Automatizar a geração de um relatório de vendas a partir de um dataset CSV utilizando Python.
 
-O projeto simula um cenário real onde relatórios mensais precisam ser gerados de forma recorrente e padronizada.
-
----
-
-## 🛠 Tecnologias Utilizadas
-
-- Python 3
-- Pandas
-- Estrutura modular com funções
-- Execução via linha de comando
+O script realiza a leitura dos dados, calcula métricas importantes e gera automaticamente um arquivo consolidado com os resultados.
 
 ---
 
-## 📈 Indicadores Gerados
+# 🛠 Tecnologias Utilizadas
 
-O script calcula automaticamente:
-
-- Faturamento Total
-- Ticket Médio
-- Melhor Mês (maior faturamento)
-- Pior Mês (menor faturamento)
-- Melhor Cliente (maior receita acumulada)
-- Produto Mais Vendido
+* Python
+* Pandas
 
 ---
 
-## 🚀 Como Executar
+# 📊 Indicadores Gerados
 
-No terminal, dentro da pasta do projeto:
+O relatório inclui:
+
+* Faturamento total
+* Ticket médio
+* Melhor mês
+* Pior mês
+* Melhor cliente
+* Produto mais vendido
+
+---
+
+# 📁 Estrutura do Projeto
+
+```text
+relatorio-automatico
+│
+├── data
+│   └── vendas.csv
+│
+├── output
+│   └── relatorio_mensal.csv
+│
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# 🚀 Como Executar
+
+Execute o script informando o arquivo de entrada e o arquivo de saída:
 
 ```bash
 python main.py data/vendas.csv output/relatorio_mensal.csv
+```
+
+O relatório será gerado automaticamente na pasta `output`.
+
+---
+
+# 🧠 Conceitos Demonstrados
+
+* Automação de tarefas com Python
+* Processamento de dados com Pandas
+* Organização de código em funções
+* Geração automática de relatórios
+
+---
+
+# 📌 Contexto Profissional
+
+Automatizar relatórios reduz tarefas manuais e aumenta a eficiência em rotinas analíticas, sendo uma prática comum em áreas de Business Intelligence.
+
+
+---
+
+# 👩‍💻 Autora
+
+Camila Santos
