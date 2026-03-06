@@ -1,42 +1,80 @@
-# Análise de Vendas em Python
+# 📊 Projeto 01 — Análise Exploratória de Vendas com Python
 
-Este projeto realiza uma análise completa de dados de vendas, gerando KPIs, relatórios automáticos e gráficos para visualização de desempenho ao longo do tempo.
+## 📌 Objetivo
 
-## 🚀 Sobre o Projeto
+Este projeto realiza uma **análise exploratória de dados de vendas** utilizando Python e Pandas.
+O objetivo é demonstrar como identificar padrões e gerar insights a partir de dados brutos.
 
-O projeto permite transformar dados brutos de vendas em insights estratégicos. Entre as análises realizadas:
+---
 
-- Cálculo de faturamento total e ticket médio;  
-- Faturamento por categoria e cidade;  
-- Identificação dos top 3 clientes;  
-- Análise temporal de vendas (melhor e pior mês, crescimento mês a mês, média móvel trimestral);  
-- Visualização de tendências e evolução do faturamento com gráficos.
+# 🛠 Tecnologias Utilizadas
 
-## 🛠 Tecnologias e Bibliotecas
+* Python
+* Pandas
+* Matplotlib
 
-- Python 3.x  
-- pandas  
-- matplotlib  
-- Jupyter Notebook (opcional)  
+---
 
-## 💻 Como Executar
+# 📊 Análises Realizadas
 
-1. Clone o repositório:
+O projeto calcula:
 
-git clone https://github.com/seu-usuario/analise-vendas-python.git
+* Faturamento total
+* Faturamento por mês
+* Crescimento percentual de vendas
+* Tendência de vendas ao longo do tempo
 
-#Crie e ative um ambiente virtual:
-python -m venv venv
-source venv/bin/activate # Linux/Mac
-venv\Scripts\activate    # Windows
+Também inclui visualizações gráficas para facilitar a interpretação dos dados.
 
-#Instale as dependências:
+---
+
+# 📁 Estrutura do Projeto
+
+```text
+analise-vendas-python
+│
+├── data
+│   └── vendas.csv
+│
+├── images
+│   └── grafico_vendas.png
+│
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# 🚀 Como Executar
+
+1️⃣ Instale as dependências:
+
+```bash
 pip install -r requirements.txt
+```
 
-#Execute  o script principal
+2️⃣ Execute o script:
+
+```bash
 python main.py
+```
 
+---
 
-## 📝 Autor
+# 🧠 Conceitos Demonstrados
 
-- **Camila Santos** – [LinkedIn](https://www.linkedin.com/in/camilasantos) | [GitHub](https://github.com/seu-usuario)
+* Manipulação de dados com Pandas
+* Agrupamento e agregação de dados
+* Cálculo de métricas de negócio
+* Visualização de dados com gráficos
+
+---
+
+# 📌 Contexto Profissional
+
+A análise exploratória de dados (EDA) é uma etapa fundamental em projetos de dados, permitindo compreender o comportamento das informações antes de criar modelos ou relatórios.
+
+# 👩‍💻 Autora
+
+Camila Santos
